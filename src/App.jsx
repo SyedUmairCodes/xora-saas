@@ -1,9 +1,10 @@
+import {Header} from "./sections/Header.jsx";
 import "./App.css";
 
 function App() {
   return (
     <main className="overflow-hidden">
-      <h2>Hello world</h2>
+      <Header/>
     </main>
   );
 }
